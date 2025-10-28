@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood & Organ Donor System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🩸 Blood & Organ Donor System</h1>
+
+  <form id="donorForm">
+    <input type="text" id="name" placeholder="Donor Name" required>
+    <input type="text" id="bloodGroup" placeholder="Blood Group (e.g., O+)" required>
+    <input type="text" id="organ" placeholder="Organ (optional)">
+    <input type="text" id="location" placeholder="City / Area" required>
+    <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>
+    <button type="submit">Add Donor</button>
+  </form>
+
+  <input type="text" id="search" placeholder="Search by Blood Group or Location">
+
+  <h2>Available Donors</h2>
+  <div id="donorList"></div>
+
+  <footer>
+    <p>© 2025 Blood & Organ Donor System | Created by You</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
